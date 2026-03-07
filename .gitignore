@@ -1,0 +1,25 @@
+# Secrets — never commit
+.env
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Database
+trading.db
+
+# Private strategies — keep my_strategies/ directory, ignore its contents
+my_strategies/*.py
+
+# Logs
+logs/
+nohup.out
+
+# IDE
+.vscode/
+.idea/
